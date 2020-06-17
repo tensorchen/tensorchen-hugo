@@ -4,7 +4,7 @@ disqusShortname = "birdfly"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "Bird | Fly over Land and Sea"
+title = "Bird | Fly over Land"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
