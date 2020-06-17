@@ -86,10 +86,10 @@ name = "About"
 weight = 1
 [params]
 address = "9567 Turner Trace Apt. BC C3G8A4"
-author = "Themefisher"
+author = "Chen Yixiao"
 contact_form_action = "#"
 description = "This is meta description"
-email = "info@educenter.com"
+email = "birdfly@birdfly.land"
 google_analitycs_id = ""
 logo = "images/logo.png"
 mobile = "+211234565523"
@@ -131,19 +131,19 @@ mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463e
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/tensorchen"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "#"
+link = "https://twitter.com/ge_niao"
 title = "twitter"
 [[params.social]]
 icon = "ti-instagram"
-link = "#"
+link = "https://www.instagram.com/yiniaoge"
 title = "instagram"
 [[params.social]]
 icon = "ti-github"
-link = "#"
+link = "https://github.com/tensorchen"
 title = "github"
 [[params.social]]
 icon = "ti-linkedin"
