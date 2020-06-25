@@ -5,20 +5,21 @@ paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
 title = "Bird | Fly over Land"
-[Languages.en]
+defaultContentLanguage = "cn"
+#[Languages.en]
+#contentDir = "content/english"
+#copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+#home = "Home"
+#languageCode = "en-us"
+#languageName = "En"
+#weight = 1
+[Languages.cn]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Home"
-languageCode = "en-us"
-languageName = "En"
+home = "主页"
+languageCode = "zh-cn"
+languageName = "中文"
 weight = 1
-[Languages.fr]
-contentDir = "content/french"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
-weight = 2
 [[menu.footer]]
 URL = "research"
 name = "research"
@@ -42,48 +43,48 @@ weight = 5
 [[menu.main]]
 URL = "event"
 name = "event"
-parent = "Pages"
+parent = "更多"
 weight = 1
 [[menu.main]]
 URL = "teacher"
 name = "teacher"
-parent = "Pages"
+parent = "更多"
 weight = 2
 [[menu.main]]
 URL = "notice"
 name = "notice"
-parent = "Pages"
+parent = "更多"
 weight = 3
 [[menu.main]]
 URL = "scholarship"
 name = "scholarship"
-parent = "Pages"
+parent = "更多"
 weight = 4
 [[menu.main]]
 URL = "research"
 name = "research"
-parent = "Pages"
+parent = "更多"
 weight = 5
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
+#[[menu.main]]
+#URL = "contact"
+#name = "联系"
+#weight = 3
 [[menu.main]]
 URL = "blog"
-name = "blog"
+name = "博客"
 weight = 4
 [[menu.main]]
 hasChildren = true
-name = "Pages"
-weight = 3
-[[menu.main]]
-URL = "course"
-name = "course"
-weight = 2
-[[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
+name = "更多"
+weight = 5
+#[[menu.main]]
+#URL = "course"
+#name = "图书"
+#weight = 2
+#[[menu.main]]
+#URL = "about"
+#name = "关于"
+#weight = 1
 [params]
 address = "9567 Turner Trace Apt. BC C3G8A4"
 author = "Chen Yixiao"
@@ -92,7 +93,7 @@ description = "This is meta description"
 email = "birdfly@birdfly.land"
 google_analitycs_id = ""
 logo = "images/logo.png"
-mobile = "+211234565523"
+mobile = "birdflyland"
 top_header = true
 [params.map]
 enable = true
@@ -126,7 +127,7 @@ link = "plugins/google-map/gmap.js"
 enable = true
 preloader = "images/preloader.gif"
 [params.subscription]
-enable = true
+enable = false
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
 [[params.social]]
