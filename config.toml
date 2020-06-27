@@ -15,7 +15,7 @@ defaultContentLanguage = "cn"
 #weight = 1
 [Languages.cn]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2020 Tensor CHEN 保留所有权利"
 home = "主页"
 languageCode = "zh-cn"
 languageName = "中文"
@@ -86,13 +86,13 @@ weight = 5
 #name = "关于"
 #weight = 1
 [params]
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = "深圳市南山区"
 author = "Chen Yixiao"
 contact_form_action = "#"
 description = "This is meta description"
 email = "birdfly@birdfly.land"
 google_analitycs_id = ""
-logo = "images/logo.png"
+logo = "images/tensorchen.png"
 mobile = "birdflyland"
 top_header = true
 [params.map]

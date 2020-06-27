@@ -3,39 +3,24 @@ slider:
   enable : true
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "BirdFly"
+      content : "欢迎来到Tensor CHEN的个人网站 birdfly.land"
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
+      #available animation : left, right, up, down
       button:
-        enable : true
+        enable : false
         label : "Apply now"
         link : "contact"
-
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
+    - title : "博客"
+      content : "Tensor CHEN的博客, 主要关注OpenTelemetry, Kubernetes, Golang, Rust领域。"
       animation_in : "left"
       animation_out : "right"
-      # available animation : left, right, up, down
+      #available animation : left, right, up, down
       button:
         enable : true
-        label : "Apply now"
-        link : "contact"
-
-    # slider item loop
-    - title : "Your bright future is our mission"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply now"
-        link : "contact"
-
+        label : "阅读"
+        link : "blog"
 
 ############################### Banner feature ###############################
 banner_feature:
@@ -65,10 +50,7 @@ about:
   enable : true
   title : "About Me"
   image : "images/about/about-us.jpg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  pariatur. Excepteur sint occaecat
-
-
-  cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem "
+  content : "陈一枭（Tensor CHEN)，腾讯工程师，内部Going，tRPC-Go框架创始人，Golang，Rust等领域早期推广者，OpenTelemetry社区成员，Gopher China讲师。"
   button:
     enable : false
     label : "Learn more"
