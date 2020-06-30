@@ -40,31 +40,31 @@ weight = 4
 URL = "teacher"
 name = "teacher"
 weight = 5
-[[menu.main]]
-URL = "event"
-name = "event"
-parent = "更多"
-weight = 1
-[[menu.main]]
-URL = "teacher"
-name = "teacher"
-parent = "更多"
-weight = 2
+#[[menu.main]]
+#URL = "event"
+#name = "event"
+#parent = "更多"
+#weight = 1
+#[[menu.main]]
+#URL = "teacher"
+#name = "teacher"
+#parent = "更多"
+#weight = 2
 [[menu.main]]
 URL = "notice"
-name = "notice"
-parent = "更多"
-weight = 3
-[[menu.main]]
-URL = "scholarship"
-name = "scholarship"
-parent = "更多"
-weight = 4
-[[menu.main]]
-URL = "research"
-name = "research"
-parent = "更多"
+name = "招聘"
+#parent = "更多"
 weight = 5
+#[[menu.main]]
+#URL = "scholarship"
+#name = "scholarship"
+#parent = "更多"
+#weight = 4
+#[[menu.main]]
+#URL = "research"
+#name = "research"
+#parent = "更多"
+#weight = 5
 #[[menu.main]]
 #URL = "contact"
 #name = "联系"
@@ -73,10 +73,10 @@ weight = 5
 URL = "blog"
 name = "博客"
 weight = 4
-[[menu.main]]
-hasChildren = true
-name = "更多"
-weight = 5
+#[[menu.main]]
+#hasChildren = true
+#name = "更多"
+#weight = 5
 #[[menu.main]]
 #URL = "course"
 #name = "图书"
@@ -86,7 +86,7 @@ weight = 5
 #name = "关于"
 #weight = 1
 [params]
-address = "深圳市南山区"
+address = "中国，深圳市南山区"
 author = "Chen Yixiao"
 contact_form_action = "#"
 description = "This is meta description"
@@ -124,7 +124,7 @@ link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif"
 [params.subscription]
 enable = false
