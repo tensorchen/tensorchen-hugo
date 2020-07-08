@@ -28,7 +28,8 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     - name : "OpenTelemetry"
-      icon : "images/banner/opentelemetry.png"
+      icon : "https://res.cloudinary.com/diq9dilor/image/upload/v1594234570/opentelemetry_g9pcbo.png"
+      #icon : "images/banner/opentelemetry.png"
       content : "OpenTelemetry makes robust, portable telemetry a built-in feature of cloud-native software."
 
     - name : "Kubernetes"
