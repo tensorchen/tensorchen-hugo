@@ -14,7 +14,7 @@ defaultContentLanguage = "cn"
 #languageName = "En"
 #weight = 1
 [Languages.cn]
-contentDir = "content/english"
+contentDir = "content/chinese"
 copyright = "Copyright &copy; 2020 Tensor CHEN 保留所有权利"
 home = "主页"
 languageCode = "zh-cn"
