@@ -3,7 +3,7 @@ disableLanguages = []
 disqusShortname = "birdfly"
 paginate = "6"
 summaryLength = "10"
-theme = "educenter-hugo-birdfly"
+#theme = "educenter-hugo-birdfly"
 title = "Bird | Fly over Land"
 defaultContentLanguage = "cn"
 #[Languages.en]
