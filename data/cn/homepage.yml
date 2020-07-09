@@ -1,7 +1,7 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/banner/banner-1.jpg"
+  bg_image : "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/banner/banner-1.jpg"
   slider_item:
     - title : "BirdFly"
       content : "欢迎来到Tensor CHEN的个人网站 birdfly.land"
@@ -25,23 +25,22 @@ slider:
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
-  image : "images/banner/banner-feature.png"
+  image : "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/banner/banner-feature.png"
   feature_item:
     - name : "OpenTelemetry"
-      icon : "https://res.cloudinary.com/diq9dilor/image/upload/v1594234570/opentelemetry_g9pcbo.png"
-      #icon : "images/banner/opentelemetry.png"
+      icon : "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/banner/opentelemetry.png"
       content : "OpenTelemetry makes robust, portable telemetry a built-in feature of cloud-native software."
 
     - name : "Kubernetes"
-      icon : "images/banner/kubernetes.png"
+      icon : "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/banner/kubernetes.png"
       content : "Kubernetes (K8s) is an open-source system for automating deployment, scaling, and management of containerized applications."
 
     - name : "Golang"
-      icon : "images/banner/golang.png"
+      icon : "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/banner/golang.png"
       content : "Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
 
     - name : "Rust"
-      icon : "images/banner/rust.svg"
+      icon : "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/banner/rust.svg"
       content : "A language empowering everyone to build reliable and efficient software."
 
 
@@ -50,7 +49,7 @@ banner_feature:
 about:
   enable : true
   title : "About Me"
-  image : "images/about/about-us.jpg"
+  image : "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/about/about-us.jpg"
   content : "陈一枭（Tensor CHEN)，腾讯工程师，内部Going，tRPC-Go框架创始人，Golang，Rust等领域早期推广者，OpenTelemetry社区成员，Gopher China讲师。"
   button:
     enable : false

@@ -92,40 +92,40 @@ contact_form_action = "#"
 description = "This is meta description"
 email = "birdfly@birdfly.land"
 google_analitycs_id = ""
-logo = "images/tensorchen.png"
+logo = "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/tensorchen.png"
 mobile = "birdflyland"
 top_header = true
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 [[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/slick/slick.css"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/slick/slick.css"
 [[params.plugins.css]]
-link = "plugins/animate/animate.css"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/animate/animate.css"
 [[params.plugins.css]]
-link = "plugins/venobox/venobox.css"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/venobox/venobox.css"
 [[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/slick/slick.min.js"
 [[params.plugins.js]]
-link = "plugins/venobox/venobox.min.js"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/venobox/venobox.min.js"
 [[params.plugins.js]]
-link = "plugins/filterizr/jquery.filterizr.min.js"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
+link = "https://res.cloudinary.com/diq9dilor/raw/upload/v1594314741/birdfly/static/plugins/google-map/gmap.js"
 [params.preloader]
 enable = false
-preloader = "images/preloader.gif"
+preloader = "https://res.cloudinary.com/diq9dilor/image/upload/v1594314740/birdfly/static/images/preloader.gif"
 [params.subscription]
 enable = false
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
