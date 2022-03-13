@@ -30,4 +30,3 @@ jobs:
           external_repository: tensorchen/tensorchen.github.io
           publish_branch: master
           publish_dir: ./public
-          cname: birdfly.one
